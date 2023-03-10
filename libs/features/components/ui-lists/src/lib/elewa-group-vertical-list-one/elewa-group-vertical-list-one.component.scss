@@ -1,0 +1,44 @@
+.vertical-list {
+	max-width: 90%;
+	list-style: none;
+	margin: auto;
+}
+
+.list-item {
+	display: flex;
+	gap: 0.3rem;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid var(--elewa-group-website-color-socail-text-50) 2px;
+	padding: 2.5rem 0;
+}
+
+.list-item:last-child {
+	border-bottom: none;
+}
+
+.item-title {
+	font-family: var(--elewa-group-website-dmsans-bold);
+	font-weight: var(--elewa-group-website-font-weight-title);
+	font-size: var(--elewa-group-website-font-size-title);
+	color: var(--elewa-group-website-color-socail-text);
+}
+
+.item-description {
+	display: inline-block;
+	color: var(--elewa-group-website-color-socail-text-50);
+	font-family: var(--elewa-group-website-dmsans-bold);
+	font-weight: var(--elewa-group-website-font-weight-subtitle);
+	font-size: 1.2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 50ch;
+	white-space: nowrap;
+}
+
+.item-date {
+	font-size: 1.3rem;
+	font-family: var(--elewa-group-website-dmsans-bold);
+	color: var(--elewa-group-website-color-socail-text);
+}
